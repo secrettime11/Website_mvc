@@ -12,6 +12,5 @@ namespace Website_mvc.Controllers
         {
             return View();
         }
-
     }
 }
