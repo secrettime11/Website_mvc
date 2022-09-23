@@ -48,11 +48,12 @@
                             <i class="ti-home"></i> Search@*<span class="badge badge-primary">2</span>*@ <span class="sidebar-collapse-icon ti-angle-down"></span>
                         </a>
                         <ul>
-                            <li><a href="~/Stock/Listed">Listed</a></li>
-                            <li><a href="~/Stock/OTC">OTC</a></li>
+                            @*<li><a href="~/Stock/Listed">Listed</a></li>*@
+                            @*<li><a href="~/Stock/OTC">OTC</a></li>*@
+                            <li>@Html.ActionLink("Listed", "Listed", "Stock")</li>
+                            <li>@Html.ActionLink("OTC", "OTC", "Stock")</li>
                         </ul>
                     </li>
-
                     <li class="label">Apps</li>
                     <li>
                         <a class="sidebar-sub-toggle">

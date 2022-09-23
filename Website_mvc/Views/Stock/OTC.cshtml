@@ -1,10 +1,10 @@
 ﻿@using Website_mvc.Models;
 @{
+    //Layout = null;
     List<otcTurnoverate> data = ViewBag.OTCturnoverate;
 }
 
 @*<button>@Html.ActionLink("GetOTCturnoverate", "GetOTCturnoverate")</button>*@
-
 <div class="content-wrap">
     <div class="main">
         <div class="container-fluid">
@@ -43,13 +43,13 @@
                                     <table class="table table-striped">
                                         <thead>
                                             <tr>
-                                                <th scope="col">s_date</th>
-                                                <th scope="col">s_rank</th>
-                                                <th scope="col">s_id</th>
-                                                <th scope="col">s_name</th>
-                                                <th scope="col">s_deal</th>
-                                                <th scope="col">s_market</th>
-                                                <th scope="col">s_turnoverate</th>
+                                                <th>s_date</th>
+                                                <th>s_rank</th>
+                                                <th>s_id</th>
+                                                <th>s_name</th>
+                                                <th>s_deal</th>
+                                                <th>s_market</th>
+                                                <th>s_turnoverate</th>
                                             </tr>
                                         </thead>
                                         <tbody>
