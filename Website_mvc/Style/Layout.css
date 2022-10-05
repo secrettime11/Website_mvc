@@ -75,6 +75,13 @@
     display: block;
 }
 
+.logo a img {
+    margin: 15px auto;
+    display: block;
+    width: 120px;
+    border: 8px solid #2c2f3f;
+}
+
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child), .dropdown .dropbtn {
         display: none;

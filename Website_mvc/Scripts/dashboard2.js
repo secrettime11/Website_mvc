@@ -81,9 +81,6 @@
 
     new Chartist.Bar('.ct-bar-chart', data, options, responsiveOptions);
 
-
-
-
 })(jQuery);
 
 
